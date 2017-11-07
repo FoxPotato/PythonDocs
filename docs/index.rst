@@ -15,6 +15,4 @@ Welcome to Python Basis's documentation!
 Indices and tables
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`home`
