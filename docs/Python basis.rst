@@ -140,3 +140,45 @@ Dit zijn keywords in Python::
   assert     else       import     pass
   break      except     in         raise
 
+
+Identifiers
+-----------
+Als we een Python programma schrijven maken we meer dan genoeg entities aan -- variabelen die waardes opslaan zoals nummers of strings, en dingen zoals functies en classes.
+Deze entities moeten een naam toegewezen krijgen waarmee ze aangeroepen kunnen worden -- deze namen heten ook wel identifiers.
+
+Bijvoorbeeld in de code hierboven, ``my_function()`` is de identifier van de functie. Deze specifieke naam heeft niet een speciale betekenis, het had net zo goed ``main`` kunnen heten of ``print_hello_world``.
+Het belangrijkste is dat we dezelfde naamn gebruiken als we de functie proberen aan te roepen onderin het programma.
+
+Python heeft een paar regels als het gaat om identifiers maken:
+
+* het mag alleen letters (hoofd- en kleineletters), nummers, of een underscore (``_``) bevatten. Geen spaties dus!
+* het mag niet beginnen met een nummer
+* het mag geen keyword zijn
+
+Zodra we een van deze regels breken zal het programma sluiten met een syntax error.
+Alleen betekent dat het correcte syntax is niet gelijk dat het duidelijk is voor mensen.
+Er zijn een paar richtlijnen waar we ons aan zouden moeten houden tijdens het benamen van onze variabelen om de code netjes en leesbaar te houden (voor anderen, en voor jezelf!):
+
+* laat de naam voorzich spreken -- de naam zou moeten aangeven wat de inhoud van de variabele is; een functie naam moet aangeven wat de functie doet; etc..
+* gebruik geen onnodige afkortingen -- deze kunnen onduidelijk zijn in wat ze nou betekenen en zijn moeilijker te lezen
+
+Kies een benamings conventie en houd deze aan. Dit is een veel gebruikte conventie in Python:
+
+* class namen zijn in CamelCase. De woorden zijn tegen elkaar aangedrukt en ze beginnen ieder met een hoofdletter
+* namen voor variabelen die constants zijn zijn HOOFD_LETTERS_MET_UNDERSCORES
+* normale variabelen zijn kleine_letters_met_underscores
+* variabelen en methods in classes die private zijn, en dus niet vanaf buiten af bereikt mogen worden, beginnen met 2 underscores
+
+Hier zijn een paar voorbeelden van identifiers:
+
+==============  ============  ==============
+Syntax error    Bad practice  Good practice
+==============  ============  ==============
+Person Record   PRcrd         PersonRecord
+DEFAULT-HEIGHT  Default_Ht    DEFAULT_HEIGHT
+class           Class         AlgebraCourse
+2totalweight    num2          total_weight
+==============  ============  ==============
+
+.. Note:: Wees voorzichtig dat je niet perongeluk al bestaande identifiers overschrijft. Dit geldt voor zowel je eigen variabelen, functies en classes als al ingebouwde Python functies zoals ``print``, ``len``, or ``sort``. Deze namen zijn geen keywords en zullen dus geen syntax error geven, maar zullen wel verwarring veroorzaken als je later de orginele functie probeert te gebruiken.
+
