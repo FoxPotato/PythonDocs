@@ -99,3 +99,44 @@ Hier is een voorbeeld van hoe je bijvoorbeeld een package genaamd ``django`` dow
 .. Note:: Net zoals met het ``python`` command kan de precieze naam liggen aan je installatie. Er is een grote kans dat als je ``python3.6`` gebruikt je ook ``pip3.6`` moet gebruiken. Hetzelfde dus voor ``python3`` en ``pip3`` etc, etc.
 
 
+Extra informatie
+----------------
+In deze opdrachten zal er veel gebruikt worden gemaakt van ingebouwde functies en types/modules uit de standaard libraries.
+Alhoewel er wel wat informatie staat in de hoofdstukken, is het bij verre na niet alles en stellen wij voor om de `official Python documentation <http://docs.python.org/3/>`_ ernaast te houden als referentie en mocht je extra info nodig hebben.
+
+
+
+Essentiele onderdelen in Python
+===============================
+In veel van de moderne talen betekenen woorden niks behalve als ze op een bepaalde manier staan met correcte leestekens.
+Dit is ook het geval met de Python programmeer taal. De Python interpreter kan correct gestructurueerde code lezen en uitvoeren.
+Bijvoorbeeld, de volgende Python code is correct gestructurueerd en zal worden uitgevoerd::
+
+    print("Hello, world!")
+
+Vele andere talen vereisen veel meer structuur in hun meest simpele programma's. Maar in Python is deze enkele lijn aan code, wat een simpel bericht uitprint, meer dan genoeg om te werken.
+Alleen is het niet een erg informatief voorbeeld van Pythons syntax -- dus zie hieronder een iets gecompliceerder stuk code wat eigenlijk zo goed als hetzelfde doet als de enkele lijn::
+
+    #Dit is de main functie
+    def my_function():
+        print("Hello, world!")
+
+    my_function()
+
+.. Note:: De eerste regel van dit programma is een comment. Een hash (``#``) duid het begin van een comment aan. De interpreter zal alles wat de hash volgt, op dezelfde lijn, negeren. Er zal later in dit hoofdstuk verdiept worden in comments.
+
+
+Keywords
+--------
+In de bovenstaande code maken we gebruik van bijvoorbeeld het woord ``def``. Dit is een zogeheten keyword. Dit zijn woorden die gereserveerd zijn door Python.
+Ze mogen alleen gebruikt worden voor waar ze bedoeld voor zijn, en niet meer.
+Dit zijn keywords in Python::
+
+  False      class      finally    is         return
+  None       continue   for        lambda     try
+  True       def        from       nonlocal   while
+  and        del        global     not        with
+  as         elif       if         or         yield
+  assert     else       import     pass
+  break      except     in         raise
+
