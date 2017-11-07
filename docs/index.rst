@@ -10,9 +10,4 @@ Welcome to Python Basis's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`home`
+   Home
