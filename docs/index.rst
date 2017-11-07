@@ -10,5 +10,4 @@ Welcome to Python Basis's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   Home
    Introduction
