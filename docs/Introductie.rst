@@ -1,5 +1,5 @@
 *******
-Introduction
+Introductie
 *******
 
 Python is een programmeertaal die begin jaren 90 ontworpen en ontwikkeld werd door Guido van Rossum. Inmiddels wordt de taal doorontwikkeld door een enthousiaste groep, geleid door Van Rossum. Deze groep wordt ondersteund door vrijwilligers op het internet.

@@ -9,4 +9,5 @@ Welcome to Python Basis's documentation!
 .. toctree::
    :maxdepth: 2
 
-   Introduction
+   Introductie
+   Eerste stappen
