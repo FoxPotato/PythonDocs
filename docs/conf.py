@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Python Basis documentation build configuration file, created by
+# Python Intro documentation build configuration file, created by
 # sphinx-quickstart on Tue Nov  7 12:48:36 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Python Basis'
+project = 'Python Intro'
 copyright = '2017, Benne Vos'
 author = 'Benne Vos'
 
@@ -112,7 +112,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'PythonBasisdoc'
+htmlhelp_basename = 'PythonIntrodoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -139,7 +139,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PythonBasis.tex', 'Python Basis Documentation',
+    (master_doc, 'PythonIntro.tex', 'Python Intro Documentation',
      'Benne Vos', 'manual'),
 ]
 
@@ -149,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'pythonbasis', 'Python Basis Documentation',
+    (master_doc, 'pythonintro', 'Python Intro Documentation',
      [author], 1)
 ]
 
@@ -160,10 +160,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PythonBasis', 'Python Basis Documentation',
-     author, 'PythonBasis', 'One line description of project.',
+    (master_doc, 'PythonIntro', 'Python Intro Documentation',
+     author, 'PythonIntro', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-
